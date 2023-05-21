@@ -1,6 +1,9 @@
 # JS Code Helper
 This is a code extension that helps to write commonly used functions in React and commonly used packages.
 
+![vs code screenshot](https://github.com/amitkroutthedev/js-code-helper/assets/48612930/1c56d141-6c7e-4c94-b767-0d88b6adb9ba)
+
+
 ## Features
 
 The code snippets in this repository cover a wide range of commonly used packages like redux, formik, yup,...more to be added in future. These are the following code snippets that can be used,
