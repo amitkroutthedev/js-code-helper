@@ -1,0 +1,25 @@
+{
+  "name": "js-helper-code-extension-vs",
+  "displayName": "JS Helper Code Snippets",
+  "description": "code snippet to make common react packages code easier",
+  "publisher": "AmitKRout",
+  "icon": "./icons/logo.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "repository": {
+    "private": true
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
