@@ -1,16 +1,34 @@
 {
   "name": "js-helper-code-extension-vs",
   "displayName": "JS Helper Code Snippets",
-  "description": "code snippet to make common react packages code easier",
+  "description": "Modern React/JS snippets: Redux Toolkit, TanStack Query, React Hook Form + Zod, Axios, hooks, and more.",
   "publisher": "AmitKRout",
   "icon": "./icons/logo.png",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.77.0"
+    "vscode": "^1.85.0"
   },
   "repository": {
-    "private": true
+    "type": "git",
+    "url": "https://github.com/amitkroutthedev/js-code-helper.git"
   },
+  "bugs": {
+    "url": "https://github.com/amitkroutthedev/js-code-helper/issues"
+  },
+  "homepage": "https://github.com/amitkroutthedev/js-code-helper#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "redux-toolkit",
+    "react-hook-form",
+    "zod",
+    "tanstack-query",
+    "react-query",
+    "axios",
+    "snippets",
+    "typescript"
+  ],
   "categories": [
     "Snippets"
   ],
@@ -19,6 +37,18 @@
       {
         "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.code-snippets"
       }
     ]
   }
